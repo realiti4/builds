@@ -3,6 +3,8 @@ set CONFIG=release
 
 set CMAKE_GENERATOR=Ninja
 
+set BUILD_TEST=0
+
 if not exist \magma (
 	curl -k https://s3.amazonaws.com/ossci-windows/magma_2.5.1_%CUDA_PREFIX%_%CONFIG%.7z -o magma.7z
 	7za x -aoa magma.7z -omagma
