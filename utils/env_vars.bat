@@ -8,6 +8,7 @@ set BUILD_TEST=0
 if not exist \magma (
 	curl -k https://s3.amazonaws.com/ossci-windows/magma_2.5.1_%CUDA_PREFIX%_%CONFIG%.7z -o magma.7z
 	7za x -aoa magma.7z -omagma
+	del magma_2.5.1_%CUDA_PREFIX%_%CONFIG%.7z
 )
 
 set MKLProductDIR=D:\Files\Program\IntelSWTools\compilers_and_libraries_2020.0.166\windows
