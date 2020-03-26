@@ -1,4 +1,4 @@
-set CUDA_PREFIX=cuda101
+set CUDA_PREFIX=cuda102
 set CONFIG=release
 
 set CMAKE_GENERATOR=Ninja
