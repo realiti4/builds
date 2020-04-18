@@ -11,7 +11,7 @@ if not exist magma\ (
 	del magma.7z
 )
 
-set MKLProductDIR=D:\Files\Program\IntelSWTools\compilers_and_libraries_2020.0.166\windows
+set MKLProductDIR=D:\Files\Program\IntelSWTools\compilers_and_libraries_2020.1.216\windows
 
 set LIB=%MKLProductDir%\mkl\lib;%LIB%
 set LIB=%MKLProductDir%\mkl\lib\intel64_win;%LIB%
