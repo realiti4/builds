@@ -6,6 +6,7 @@ data/tradingview/backup
 git-repos
 colab/
 checkpoints/pytorch/seq2seq/testing/colab
+library/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
