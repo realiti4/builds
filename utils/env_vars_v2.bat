@@ -9,7 +9,7 @@ REM #set TH_BINARY_BUILD=1
 REM #set BUILD_TEST=0
 set INSTALL_TEST=0
 
-set CUDA_PREFIX=cuda102
+set CUDA_PREFIX=cuda111
 set MAGMA_VERSION=2.5.3
 
 set TMP_DIR_WIN=F:\virtualenvs\builds\library\
