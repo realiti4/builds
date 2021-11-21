@@ -1,0 +1,7 @@
+set PKG_NAME=torch
+
+# pip install future pytest coverage hypothesis protobuf psutil
+
+set DISTUTILS_USE_SDK=1
+
+"D:\Files\Program\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" x64

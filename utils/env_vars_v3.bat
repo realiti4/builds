@@ -11,7 +11,7 @@ set USE_DISTRIBUTED=0
 set INSTALL_TEST=0
 set DISTUTILS_USE_SDK=1
 
-set CUDA_PREFIX=cuda111
+set CUDA_PREFIX=cuda115
 set MAGMA_VERSION=2.5.4
 
 set TMP_DIR_WIN=F:\virtualenvs\builds\library\
@@ -26,4 +26,6 @@ if not exist %TMP_DIR_WIN%\magma\ (
 set MAGMA_HOME=%TMP_DIR_WIN%\magma
 set libuv_ROOT=C:\packages\libuv-1.40.0
 
-"D:\Files\Program\IntelSWTools\compilers_and_libraries_2020.3.279\windows\bin\compilervars.bat" intel64 vs2019
+"D:\Files\Program\IntelSWTools\compilers_and_libraries_2020.4.311\windows\bin\compilervars.bat" intel64 vs2019
+
+REM #-vcvars_ver=14.28.29333
